@@ -26,6 +26,8 @@ app.get("/bfs/:id", async (req, res) => {
   res.send({ message: "BFS completed" });
 });
 
+// <-----------------------Purely for testing------------------------->
+
 app.post("/add", async (req, res) => {
   const startNode = req.body.id;
   const value = req.body.value;
@@ -52,6 +54,8 @@ app.post("/add", async (req, res) => {
 
   console.log(node);
 });
+
+// <------------------Purely for testing--------------------->
 
 app.listen(3000, () => {
   console.log("Listening on http://localhost:3000");
