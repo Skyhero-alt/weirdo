@@ -1,0 +1,10 @@
+GET http://localhost:3000/bfs/63b57c5a49a754e54cefca31
+
+###
+POST http://localhost:3000/add
+content-type: application/json
+
+{
+    "left": "63b57c5a49a754e54cefca31",
+    "value": 4
+}
